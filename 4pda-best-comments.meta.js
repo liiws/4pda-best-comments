@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         4pda-best-comments
 // @namespace    https://4pda.ru/
-// @version      1.0
+// @version      1.1
 // @include      /^https://4pda\.ru/\d{4}/\d{2}/\d{2}.*$/
 // @grant        none
 // @run-at      document-start

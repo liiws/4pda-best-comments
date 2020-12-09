@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         4pda-best-comments
 // @namespace    https://4pda.ru/
-// @version      1.0
+// @version      1.1
 // @include      /^https://4pda\.ru/\d{4}/\d{2}/\d{2}.*$/
 // @grant        none
 // @run-at      document-start
@@ -57,7 +57,7 @@ function Run() {
 			var id = $(item).attr('id');
             var idNumber = id.match(/\d+/);
             idNumber = idNumber ? +idNumber[0] : 0;
-            var mark = +$('> .heading > .karma > .num-wrap > .num', item).text();
+            var mark = +$('> .heading > .text-right > .karma > .num-wrap > .num', item).text();
 			var hasImg = false;// $('> .comment__message', item).find('img').length > 0;
 			var hasVideo = false;// $('> .comment__message', item).find('iframe').length > 0;
 			var hasLink = false;// $('> .comment__message', item).find('a').length > 0;

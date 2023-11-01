@@ -10,4 +10,4 @@
 
 # Скачать
 
-[4pda-best-comments.js](https://bitbucket.org/liiws/4pda-best-comments/downloads/4pda-best-comments.user.js).
+[4pda-best-comments.js](https://github.com/liiws/4pda-best-comments/releases/download/release/4pda-best-comments.user.js).
